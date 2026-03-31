@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ürünler - TechStore</title>
+
+  <!-- DOĞRU CSS -->
+  <link rel="stylesheet" href="../varliklar/css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">📱 TechStore</div>
+  <nav>
+    <a href="../index.html">Ana Sayfa</a>
+    <a href="urunler.html" class="active">Ürünler</a>
+    <a href="about.html">Hakkında</a>
+    <a href="contact.html">İletişim</a>
+  </nav>
+</header>
+
+<section class="urunler">
+  <h2>Popüler Modeller</h2>
+
+  <div class="urun-list">
+
+    <div class="urun" onclick="sepeteEkle('iPhone 15')">
+      <img src="https://via.placeholder.com/200x250" alt="iPhone 15">
+      <h3>iPhone 15</h3>
+      <p>₺54.999</p>
+    </div>
+
+    <div class="urun" onclick="sepeteEkle('Samsung Galaxy S24')">
+      <img src="https://via.placeholder.com/200x250" alt="Galaxy S24">
+      <h3>Samsung Galaxy S24</h3>
+      <p>₺42.999</p>
+    </div>
+
+    <div class="urun" onclick="sepeteEkle('Xiaomi 14')">
+      <img src="https://via.placeholder.com/200x250" alt="Xiaomi 14">
+      <h3>Xiaomi 14</h3>
+      <p>₺29.999</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>Sepetiniz: <span id="sepet">0</span> ürün</p>
+</footer>
+
+<!-- DOĞRU JS -->
+<script src="../varliklar/js/main.js"></script>
+
+</body>
+</html>
