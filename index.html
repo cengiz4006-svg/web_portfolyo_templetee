@@ -4,44 +4,56 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TechStore - Telefon Satış</title>
-  <link rel="stylesheet" href="css/style.css">
+
+  <!-- DOĞRU CSS YOLU -->
+  <link rel="stylesheet" href="varliklar/css/style.css">
 </head>
+
 <body>
-  <header>
-    <div class="logo">📱 TechStore</div>
-    <nav>
-      <a href="index.html" class="active">Ana Sayfa</a>
-      <a href="urunler.html">Ürünler</a>
-      <a href="iletisim.html">İletişim</a>
-    </nav>
-  </header>
 
-  <section class="hero">
-    <h1>Yeni Nesil Akıllı Telefonlar!</h1>
-    <p>En yeni teknolojiyi, en uygun fiyatlarla keşfedin.</p>
-    <button class="cta" onclick="window.location='urunler.html'">Ürünleri Gör</button>
-  </section>
+<header>
+  <div class="logo">📱 TechStore</div>
+  <nav>
+    <a href="index.html" class="active">Ana Sayfa</a>
+    <a href="sayfalar/urunler.html">Ürünler</a>
+    <a href="sayfalar/about.html">Hakkında</a>
+    <a href="sayfalar/contact.html">İletişim</a>
+  </nav>
+</header>
 
-  <section class="ozellikler">
-    <div class="card">
-      <h3>🚀 Hızlı Kargo</h3>
-      <p>24 saat içinde kargonuz elinizde!</p>
-    </div>
-    <div class="card">
-      <h3>💳 Güvenli Ödeme</h3>
-      <p>Tüm işlemler SSL ile korunur.</p>
-    </div>
-    <div class="card">
-      <h3>📞 7/24 Destek</h3>
-      <p>Her zaman yanınızdayız.</p>
-    </div>
-  </section>
+<section class="hero">
+  <h1>Yeni Nesil Akıllı Telefonlar!</h1>
+  <p>En yeni teknolojiyi, en uygun fiyatlarla keşfedin.</p>
 
-  <footer>
-    <p>© 2024 TechStore - Tüm hakları saklıdır.</p>
-  </footer>
+  <!-- BUTON DÜZELTİLDİ -->
+  <button class="cta" onclick="window.location.href='sayfalar/urunler.html'">
+    Ürünleri Gör
+  </button>
+</section>
 
-  <script src="js/main.js"></script>
+<section class="ozellikler">
+  <div class="card">
+    <h3>🚀 Hızlı Kargo</h3>
+    <p>24 saat içinde kargonuz elinizde!</p>
+  </div>
+
+  <div class="card">
+    <h3>💳 Güvenli Ödeme</h3>
+    <p>Tüm işlemler SSL ile korunur.</p>
+  </div>
+
+  <div class="card">
+    <h3>📞 7/24 Destek</h3>
+    <p>Her zaman yanınızdayız.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 TechStore - Tüm hakları saklıdır.</p>
+</footer>
+
+<!-- DOĞRU JS YOLU -->
+<script src="varliklar/js/main.js"></script>
+
 </body>
 </html>
-
